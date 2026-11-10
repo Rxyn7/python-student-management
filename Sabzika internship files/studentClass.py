@@ -50,6 +50,7 @@ print(manager.manage.get("ID103"))
 
 #add student
 manager.manage["ID104"] = {"name: Nolan", "age: 24", "marks: 70"}
+manager.manage["ID105"] = {"name: Morgan", "age: 21", "marks: 80"}
 
 #delete student 
 manager.manage.pop("ID101")
